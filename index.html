@@ -5,19 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(218, 53, 47);
+        }
+        #links{
+            color: black;
+        }
+        #name{
+            font-family: sans-serif;
+            font-size: 20;
+        }
+        #descrption{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 14;
+        }
+        #location{
+            font-size: 1.5em;
+        }
+        li{
+            font-style: italic;
+            line-height: 50px;
+            font-size: 1.5em;
+        }
+    </style>
 </head>
 <body>
-    <a href="#sobremim">Sobre mim</a><br>
+    <p id="links"><a ref="#sobremim">Sobre mim</a><br>
     <a href="#habilidades">Habilidades</a><br>
     <a href="#outrashabilidades">Outras Habilidades</a><br>
-    <a href="#portifolio">Portifólio</a><br>
-    <h1>Diego Santana de Almeida</h1>
+    <a href="#portifolio">Portifólio</a><br></p>
+    <h1 id="name">Diego Santana de Almeida</h1>
     <img src="foto.jpg" alt="Foto de Diego usando chapéu" width="200px">
     <br>
-    <p>Itabuna-Ba, Brasil</p>
+    <p id="location">Itabuna-Ba, Brasil</p>
     <br>
     <h3>Sobre mim</h3><a name="sobremim"></a>
-    Sou pessoa estudante de Web Desenvolvimento na Trybe, gratuado e <strong>mestre</strong> em Física.
+    <p id="descrption"> Sou estudante de Web Desenvolvimento na Trybe, graduado e <strong>mestre</strong> em Física.</p>
     <br>
     <h3>Habilidades</h3><a name="habilidades"></a>
     <ul>
