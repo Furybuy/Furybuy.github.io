@@ -6,44 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        body{
-            background-color: rgb(218, 53, 47);
-        }
-        #links{
-            color: black;
-        }
-        #name{
-            font-family: sans-serif;
-            font-size: 20;
-        }
-        #descrption{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 14;
-        }
-        #location{
-            font-size: 1.5em;
-        }
-        li{
-            font-style: italic;
-            line-height: 50px;
-            font-size: 1.5em;
-        }
-    </style>
+    
 </head>
 <body>
-    <p id="links"><a ref="#sobremim">Sobre mim</a><br>
-    <a href="#habilidades">Habilidades</a><br>
-    <a href="#outrashabilidades">Outras Habilidades</a><br>
-    <a href="#portifolio">Portifólio</a><br></p>
-    <h1 id="name">Diego Santana de Almeida</h1>
-    <img src="foto.jpg" alt="Foto de Diego usando chapéu" width="200px">
+    <a class="link" href="#sobre">Sobre mim</a> 
+    <a class="margin link" href="#habilidades">Habilidades</a>
+    <a class="margin link" href="#outrashabilidades">Outras Habilidades</a>
+    <a class="margin link" href="#portifolio">Portifólio</a><br></p>
+    <div>
+        <h1 id="name">Diego Santana de Almeida</h1>
+        <div class="fotofixer">    
+            <img src="foto.jpg" alt="Foto de Diego usando chapéu" id="foto" width="200px">
+            <br>
+            <br>
+            <h3>Sobre mim</h3><a name="sobre"></a>
+            <p id="descrption"> Olá, sou estudante de Web Desenvolvimento na Trybe, graduado e <strong>mestre</strong> em Física.</p>
+        </div>
+    </div>
     <br>
-    <p id="location">Itabuna-Ba, Brasil</p>
-    <br>
-    <h3>Sobre mim</h3><a name="sobremim"></a>
-    <p id="descrption"> Sou estudante de Web Desenvolvimento na Trybe, graduado e <strong>mestre</strong> em Física.</p>
-    <br>
+    <p id="location">Itabuna, Bahia, Brasil</p>
     <h3>Habilidades</h3><a name="habilidades"></a>
     <ul>
         <li>C, C++, C#</li>
